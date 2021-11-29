@@ -19,12 +19,18 @@ class MainActivity : BaseActivity() {
         setValues()
         setupEvents()
         auth = FirebaseAuth.getInstance()
+
     }
 
     override fun setupEvents() {
         binding.signUpButton.setOnClickListener() {
 
             val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+
+        }
+        binding.signInButton.setOnClickListener {
+            val intent = Intent(this, ReviewActivity::class.java)
             startActivity(intent)
 
         }
