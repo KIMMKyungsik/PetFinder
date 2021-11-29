@@ -9,8 +9,10 @@
         <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/activity_fragment_lost_pet.xml" value="0.35833333333333334" />
         <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/activity_lost_pet_fragment.xml" value="0.35833333333333334" />
         <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/activity_main.xml" value="0.34375" />
+        <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/activity_review.xml" value="0.36302083333333335" />
         <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/activity_sign_up.xml" value="0.35833333333333334" />
         <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/fragment_lost_pet.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/LG/PetFinder/app/src/main/res/layout/lost_list_item.xml" value="0.36302083333333335" />
       </map>
     </option>
   </component>

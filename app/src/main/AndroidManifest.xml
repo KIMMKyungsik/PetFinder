@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="org.techtown.petfinder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,15 +11,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PetFinder">
+        android:theme="@style/Theme.PetFinder"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
         <activity
-            android:name="org.techtown.fragments.LostPetFragment"
-            android:exported="false" />
-        <activity
-            android:name="org.techtown.fragments.BaseFragment"
-            android:exported="false" />
-        <activity
-            android:name="org.techtown.fragments.FragmentLostPet"
+            android:name=".ReviewActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -27,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SignUpActivity" />
     </application>
 
 </manifest>
